@@ -45,7 +45,7 @@ setup(
         'tqdm',
         'requests',
         'pandas',
-        'h5py'
+        'h5py',
         'six',
         'particletools',
     ],

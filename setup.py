@@ -7,7 +7,7 @@ import setuptools
 
 def get_version():
     version = {}
-    with open("prince_analysis_tools/version.py") as fp:
+    with open("prince_data_utils/version.py") as fp:
         exec (fp.read(), version)
     return version['__version__']
 

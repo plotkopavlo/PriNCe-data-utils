@@ -24,7 +24,7 @@ import numpy as np
 from six import with_metaclass
 
 from prince_data_utils import resource_path
-from prince.util import info
+from prince_cr.util import info
 
 class CrossSectionsFromAscii(object):
     """Each class derived from this one is expected to load the
